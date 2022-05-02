@@ -1,1 +1,3 @@
-# lab2-unidad2
+# Laboratorio 2 - Unidad 2
+## Uso de JavaScript
+### Franco Cifuentes Gizzi
