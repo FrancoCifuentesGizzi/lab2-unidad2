@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/ej11.js"></script>
+    <title>Ejercicio 11</title>
+</head>
+
+<body style="background: rgb(200, 218, 220);">
+    <a href="./index.html">
+        <!--bontón para volver al index-->
+        <button class="btnback">Volver atrás</button>
+    </a>
+    <div class="titulo">
+        <h1>Imágenes</h1>
+        <hr>
+        <!--botones para indicar si avanza o retrocede, indicado con 0 y 1 para usar una sola función-->
+        <button onclick="foto(0);" style="margin:10px; padding-left: 30px; padding-right: 30px;"> << </button>
+        <button onclick="foto(1);" style="margin:10px; padding-left: 30px; padding-right: 30px;"> >>  </button>
+        <hr>
+    </div>
+    <div class="contenido">
+        <!--se muestran las imágenes-->
+        <img id="imagen" src="./js/img/jsimg/1.jpg" style="resize: both;">
+        <br>
+
+    </div>
+
+</body>
+
+</html>

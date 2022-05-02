@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./js/ej9.js"></script>
+    <title>Ejercicio 9</title>
+</head>
+<!--body con color similar al index-->
+
+<body style="background: rgb(200, 218, 220);">
+    <a href="./index.html">
+        <!--bontón para volver al index-->
+        <button class="btnback">Volver atrás</button>
+    </a>
+    <!--titlos y contenido, estilos en archivo css-->
+    <h1 class="titulo">Ejercicio 9: Dólar - CLP </h1>
+    <h3 class="titulo"> Conversión de moneda </h3>
+    <hr>
+    <div class="contenido">
+        <form>
+            <!--formulario para ingreso de dolar-->
+            <div class="dolarpeso">
+                <h3>USD -> CLP</h3><br>
+                <input type="text" name="usdclp" id="usd" placeholder="Ingresar dólares">
+                <!--con botón se llama a la función-->
+                <button type="button" onclick="cambiousdclp()">Convertir</button>
+                <!--se muestra resultado en input-->
+                <input type="text" name="dolarpeso" id="clpresult" placeholder="Cambio en CLP"><br>
+            </div>
+            <!--fomrulario para ingresar clp-->
+            <div class="pesodolar">
+                <h3>CLP -> USD</h3>
+                <input type="text" name="clpusd" id="clp" placeholder="Ingresar CLP">
+                <!--con botón se llama a la función-->
+                <button type="button" onclick="cambioclpusd()">Convertir</button>
+                <!--se muestra resultado en input-->
+                <input type="text" name="pesodolar" id="usdresult" placeholder="Cambio en USD"><br>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

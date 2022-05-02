@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./js/ej10.js"></script>
+    <title>Ejercicio 10</title>
+</head>
+<!--body-->
+<body style="background: rgb(200, 218, 220);">
+    <a href="./index.html">
+        <!--bontón para volver al index-->
+        <button class="btnback">Volver atrás</button>
+    </a>
+    <div class="titulo">
+        <h1>Lanzamiento de dado</h1>
+        <hr>
+    </div>
+    <!--contenido de dados-->
+    <div class="contenido" style="background:rgb(255, 255, 255)">
+        <!--se obtienen imagenes de los dados y se ajusta tamaño-->
+        <img id="dados" src="./js/img/dado/dado.png" style="resize: both;">
+        <br><br>
+        <!--borno para llamar a función aleatoria-->
+        <button onclick="dado();" style="margin: 30px; padding: 30px; font-size: 20px;">LANZAR</button>
+    </div>
+</body>
+
+</html>

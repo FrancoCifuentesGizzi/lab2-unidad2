@@ -1,0 +1,61 @@
+.titulo {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.boton{
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    background: rgb(134, 232, 193);
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 0px;
+    width: 200px;
+    border-radius: 10px;
+    color: black;
+    border-style: ridge;
+    border-color: black;
+}
+
+.boton:hover{
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    background: rgb(255, 60, 11);
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 0px;
+    width: 200px;
+    border-radius: 10px;
+    color: azure;
+    border-style: ridge;
+    border-color: black;
+}
+
+.btnback{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgb(148, 212, 212);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+}
+.btnback:hover{
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: rgb(212, 107, 27);
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
+}
+
+.dolarpeso{
+    text-align: center;
+}
